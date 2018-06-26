@@ -5,7 +5,7 @@ body {
 
 .navbar {
   border-bottom: #008ed6 3px solid;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #home-section {
@@ -14,7 +14,6 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 #home-section .dark-overlay {
@@ -23,7 +22,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 700px;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
 }
 
 #home-section .home-inner {
@@ -34,14 +33,16 @@ body {
   opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas,
+#create-section .fas {
   color: #008ed6;
   background: #fff;
   padding: 5px;
   border-radius: 5px;
 }
 
-#explore-section .fas, #share-section .fas {
+#explore-section .fas,
+#share-section .fas {
   color: #fff;
   background: #333;
   padding: 5px;
